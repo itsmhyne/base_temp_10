@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>Laravel 10 Dashboard &mdash; Qyumh</title>
+    <title>Base Template &mdash; Laaravel 10</title>
 
     <!-- General CSS Files -->
     <link rel="stylesheet" href="{{ 'assets/plugins/bootstrap/dist/css/bootstrap.min.css' }}">
+    <link rel="stylesheet" href="{{ 'assets/plugins/fontawesome/css/all.min.css' }}">
 
     <!-- CSS Libraries -->
     <link rel="stylesheet" href="{{ 'assets/plugins/jqvmap/dist/jqvmap.min.css' }}">
@@ -48,7 +49,7 @@
     <script src="{{ 'assets/plugins/jquery.nicescroll/dist/jquery.nicescroll.min.js' }}"></script>
     <script src="{{ 'assets/plugins/moment/min/moment.min.js' }}"></script>
     <script src="{{ 'assets/js/stisla.js' }}"></script>
-    <script src="https://kit.fontawesome.com/8f476edf0c.js" crossorigin="anonymous"></script>
+    {{-- <script src="https://kit.fontawesome.com/8f476edf0c.js" crossorigin="anonymous"></script> --}}
 
     <!-- JS Libraies -->
     <script src="{{ 'assets/plugins/jquery-sparkline/jquery.sparkline.min.js' }}"></script>
