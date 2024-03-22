@@ -1,4 +1,4 @@
-@extends('template/base')
+@extends('template/base_tmp')
 
 @section('content')
     <section class="section">
